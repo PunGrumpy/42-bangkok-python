@@ -1,5 +1,6 @@
 import sys
 
+
 def main():
     if len(sys.argv) > 1:
         print("none")
@@ -13,9 +14,10 @@ def main():
         while j <= 10:
             print(f" {i * j}", end="")
             j += 1
-        
+
         print()
         i += 1
+
 
 if __name__ == "__main__":
     main()
